@@ -1,4 +1,4 @@
-package com.challenge.playground.day1;
+package com.challenge.playground.introduccion.stdinout1;
 
 import java.util.Scanner;
 

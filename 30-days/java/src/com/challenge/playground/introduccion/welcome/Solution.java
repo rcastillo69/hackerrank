@@ -1,4 +1,4 @@
-package com.challenge.playground.day0;
+package com.challenge.playground.introduccion.welcome;
 
 public class Solution {
 

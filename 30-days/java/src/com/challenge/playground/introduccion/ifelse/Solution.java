@@ -1,4 +1,4 @@
-package com.challenge.playground.day2;
+package com.challenge.playground.introduccion.ifelse;
 
 import java.util.Scanner;
 
