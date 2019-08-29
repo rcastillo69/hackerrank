@@ -1,5 +1,7 @@
 package com.challenge.playground.introduccion.outputformatting;
 
+import java.util.Scanner;
+
 public class Solution {
 
     public static void main(String[] args) {
