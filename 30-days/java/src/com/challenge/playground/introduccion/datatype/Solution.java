@@ -4,13 +4,12 @@ import java.util.Scanner;
 
 
 class Solution {
-    public static void printOut(int index) {
-        String outputs[] = {"* byte", "* short", "* int", "* long"};
+    private static void printOut(int index) {
+        String[] outputs = {"* byte", "* short", "* int", "* long"};
         for (int i = 0; i < 4; i++) {
             if (index <= i) {
                 System.out.println(outputs[i]);
             }
-
         }
     }
 
@@ -28,7 +27,6 @@ class Solution {
                     printOut(0);
                 } else if (x >= Short.MIN_VALUE && x <= Short.MAX_VALUE) {
                     printOut(1);
-
                 } else if (x >= Integer.MIN_VALUE && x <= Integer.MAX_VALUE) {
                     printOut(2);
                 } else System.out.println("* long");
